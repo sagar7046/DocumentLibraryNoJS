@@ -11,15 +11,23 @@
     @include ms-Grid-row;
     @include ms-fontColor-white;
     background-color: $ms-color-themeDark;
-    padding: 20px;
+
+  }
+
+
+  .content {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #F8F8F8 !important;
+    color: black;
   }
 
   .column {
     @include ms-Grid-col;
-    @include ms-lg10;
-    @include ms-xl8;
-    @include ms-xlPush2;
-    @include ms-lgPush1;
+    @include ms-lg12;
+    @include ms-xl12;
+    // @include ms-xlPush2;
+    // @include ms-lgPush1;
   }
 
   .title {
@@ -51,7 +59,7 @@
     // Basic Button
     outline: transparent;
     position: relative;
-    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: $ms-font-size-m;
     font-weight: $ms-font-weight-regular;

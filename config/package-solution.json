@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "document-library-no-js-client-side-solution",
+    "id": "a08d23e7-b310-4e6d-9417-70b2232a4bdd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/document-library-no-js.sppkg"
+  }
+}

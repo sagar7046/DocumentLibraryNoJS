@@ -26,6 +26,7 @@
     @include ms-Grid-col;
     @include ms-lg12;
     @include ms-xl12;
+    padding: 10px;
     // @include ms-xlPush2;
     // @include ms-lgPush1;
   }
@@ -33,6 +34,21 @@
   .title {
     @include ms-font-xl;
     @include ms-fontColor-white;
+  }
+
+  .loadingIcon {
+    display: none;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .tableData {
+    border: none;
+    background-color: transparent;
+  }
+
+  .tableData:hover {
+    cursor: pointer;
   }
 
   .subTitle {
